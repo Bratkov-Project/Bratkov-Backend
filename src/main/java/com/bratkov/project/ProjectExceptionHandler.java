@@ -1,4 +1,4 @@
-package com.bratkov.Project;
+package com.bratkov.project;
 
 public class ProjectExceptionHandler {
 }
