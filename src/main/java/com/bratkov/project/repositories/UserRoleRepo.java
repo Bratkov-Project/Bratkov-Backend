@@ -1,4 +1,4 @@
 package com.bratkov.project.repositories;
 
-public interface CustomerRoleRepo {
+public interface UserRoleRepo {
 }

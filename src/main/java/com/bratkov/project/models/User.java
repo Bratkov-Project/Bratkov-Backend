@@ -11,18 +11,12 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Data
 @Entity
-@Table (name = "customers")
-public class Customers {
+@Table (name = "users")
+public class User {
 
     @Id
     @GeneratedValue
     private Integer id;
-
-    @Column (nullable = false)
-    private String firstname;
-
-    @Column (nullable = false)
-    private String lastname;
 
     @Column (nullable = false, unique = true)
     private String username;

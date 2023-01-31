@@ -15,4 +15,6 @@ public class JsonResonse {
     private Object data;
 
     private boolean status;
+
+    //private String redirect;
 }
